@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Word Game</h1>
+    <div id="game-setup">
+        <button id="add-mr-white">Add Mr. White</button>
+        <button id="start-game">Start Game</button>
+    </div>
+    <div id="game-board" style="display:none;">
+        <div id="round-info">
+            <p id="round-number"></p>
+            <button id="next-round">Next Round</button>
+        </div>
+        <div id="player-list"></div>
+        <div id="clue-input">
+            <input type="text" id="player-clue" placeholder="Enter your clue here...">
+            <button id="submit-clue">Submit Clue</button>
+        </div>
+        <div id="guess-section">
+            <button id="make-guess">Make a Guess</button>
+            <button id="reveal-identity">Reveal Identity</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
